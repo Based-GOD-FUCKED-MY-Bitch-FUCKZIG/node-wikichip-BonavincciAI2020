@@ -4,4 +4,4 @@
  * MIT Licensed
 */
 
-module.exports = require('lib/WikiChip');
+module.exports = require('./lib/WikiChip');
