@@ -1,0 +1,34 @@
+{
+  "version": "0.0.1-alpha",
+  "name": "wikichip",
+  "description": "Query the WikiChip (https://en.wikichip.org/) website for processor information.",
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib",
+    "example": "./examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisT/node-wikichip.git"
+  },
+  "keywords": [
+    "wikichip",
+    "processor"
+  ],
+  "author": {
+    "name": "Louis T.",
+    "email": "louist@ltdev.im",
+    "url": "http://ltdev.im/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LouisT/node-wikichip/issues"
+  },
+  "homepage": "https://github.com/LouisT/node-wikichip#readme",
+  "engines": {
+    "node": ">= 4.0.0"
+  }
+}
