@@ -1,7 +1,7 @@
-var WikiChip = require('../')({ protocol: 'http' });
+var WikiChip = require('../')();
 
 // Search for all processors with the same base frequency.
-WikiChip.search({ 'base_frequency': '2800' }).then(function (res) {
+WikiChip.search({ 'base frequency': '2800' }).then(function (res) {
 
    // Pring the search results.
    console.log(JSON.stringify(res, true, 4));

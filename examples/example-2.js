@@ -1,7 +1,7 @@
-var WikiChip = require('../')({ protocol: 'http' });
+var WikiChip = require('../')();
 
 // Search for a specific model number.
-WikiChip.search({ 'model_number': '3855U' }).then(function (res) {
+WikiChip.search({ 'model number': '3855U' }).then(function (res) {
 
    // Pring the search results.
    console.log(JSON.stringify(res, true, 4));

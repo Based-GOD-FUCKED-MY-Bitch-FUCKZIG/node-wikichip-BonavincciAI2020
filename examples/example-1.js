@@ -1,5 +1,7 @@
-var WikiChip = require('../')({ protocol: 'http' });
-WikiChip.search({ manufacturer: 'Intel', 'base_frequency': '2800' }).then(function (res) {
+var WikiChip = require('../')();
+
+// Search for a specific manufacturer with a specific base frequency.
+WikiChip.search({ manufacturer: 'Intel', 'base frequency': '2800' }).then(function (res) {
 
    // Print the list of processors matching the search paramaters.
    console.log(JSON.stringify(res, true, 4));
