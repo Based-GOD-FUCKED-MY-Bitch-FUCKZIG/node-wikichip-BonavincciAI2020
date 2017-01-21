@@ -10,7 +10,7 @@ Query the WikiChip (https://en.wikichip.org/) website for processor information.
 
  `var WikiChip = require('wikichip')([Parsed Url])`
  
-  * Optional; The options are any valid `url.format` object paramater. - https://nodejs.org/api/url.html#url_url_format_urlobj - Note: A protocol of 'http' or 'https' is also valid.
+  * Optional; The options are any valid `url.format` object paramater. - https://nodejs.org/api/url.html#url_url_format_urlobj
 
 
 `WikiChip.search([Search Object])`
@@ -22,8 +22,10 @@ Query the WikiChip (https://en.wikichip.org/) website for processor information.
 
 #### Example:
 ```javascript
-var WikiChip = require('wikichip')({ protocol: 'http' });
-WikiChip.search({ manufacturer: 'Intel', 'base_frequency': '2800' }).then(function (res) {
+var WikiChip = require('wikichip')();
+
+// Search for a specific manufacturer with a specific base frequency.
+WikiChip.search({ manufacturer: 'Intel', 'base frequency': '2800' }).then(function (res) {
 
    // Print the list of processors matching the search paramaters.
    console.log(JSON.stringify(res, true, 4));

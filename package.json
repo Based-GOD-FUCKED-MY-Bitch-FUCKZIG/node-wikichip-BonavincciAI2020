@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "wikichip",
   "description": "Query the WikiChip (https://en.wikichip.org/) website for processor information.",
   "main": "index.js",
